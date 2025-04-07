@@ -1,14 +1,13 @@
 import { useEffect, ReactNode } from 'react';
-import { motion, useAnimation, AnimatePresence } from 'framer-motion';
+import { motion, useAnimation } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
-import { Separator } from "@/components/ui/separator";
-import { Github, Linkedin, Mail, MapPin, Phone, ExternalLink, Code2, Boxes, Database, Wrench } from "lucide-react";
+import { Github, Linkedin, Mail, Phone, ExternalLink, Code2, Boxes, Database, Wrench } from "lucide-react";
 import hasbotImage from './images/hasbot.jpeg';
-import imageGen from './images/image.jpeg'
-import masjidImage from './images/masjid.jpeg'
+import imageGen from './images/image.jpeg';
+import masjidImage from './images/masjid.jpeg';
 
 interface FadeInWhenVisibleProps {
   children: ReactNode;
